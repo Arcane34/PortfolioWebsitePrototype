@@ -1,0 +1,96 @@
+
+
+
+
+*{
+    font-family: "Pixelify Sans";
+    color: white;
+}
+
+
+
+
+nav  h2{
+    display:inline-block;
+    margin: 0 0 0 1rem;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.games, .art{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.art img{
+    object-fit:scale-down;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.art .skull{
+    flex-grow: 0.1;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.section{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+button{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 0;
+  margin-top: 0.2rem;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+
+  background-color: #f1f1f1;
+
+}
+
+.content p, .content a{
+    color: #444;
+}
